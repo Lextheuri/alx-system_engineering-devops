@@ -1,0 +1,2 @@
+#!/bin/bash
+wc -lcw /etc/passwd /etc/hosts
