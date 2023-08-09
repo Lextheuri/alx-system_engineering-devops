@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l [[a..z]]* /etc/ssh/sshd_config
+find /etc/ssh/sshd_config -type f -iname '[a-z]*'
